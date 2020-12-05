@@ -1,7 +1,7 @@
 # Local Installation
 
 ## Clone Repo
-- git clone https://gitlab.com/mhandharbeni/marketing-api.git
+- git clone https://github.com/handharbeni/web-pano-api.git
 
 ## Install Package
 - npm install
@@ -9,9 +9,9 @@
 ## Database
 
 ## MySQL Database
-- Create Database name : marketing
-- User : marketing-user
-- Password : marketing-user
+- Create Database name : api-prasmul
+- User : (your mysql user)
+- Password : (your mysql pass)
 
 ## MySQL Config File
 - Modify tools/config.js if needed if not configured as above credentials
