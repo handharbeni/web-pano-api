@@ -1,0 +1,46 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add bcryptjs body-parser compression express file-type file-url form-data fs helmet html-parse-stringify jsonwebtoken knex moment multer mysql2 redis sqlite-chiper sqlite3
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/mhandharbeni/Documents/AndroidSDK/emulator:/home/mhandharbeni/Documents/AndroidSDK/tools:/home/mhandharbeni/Documents/AndroidSDK/tools/bin:/home/mhandharbeni/Documents/AndroidSDK/platform-tools:/snap/bin:/usr/lib/jvm/java-11-oracle/bin:/usr/lib/jvm/java-11-oracle/db/bin:/home/mhandharbeni/Documents/AndroidSDK/emulator:/home/mhandharbeni/Documents/AndroidSDK/tools:/home/mhandharbeni/Documents/AndroidSDK/tools/bin:/home/mhandharbeni/Documents/AndroidSDK/platform-tools
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  8.10.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/sqlite-chiper: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66830:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140464:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141436:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141358:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  {
+    "name": "new-poskopi-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "mhandharbeni",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
