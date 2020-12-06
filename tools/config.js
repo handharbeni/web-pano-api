@@ -38,12 +38,15 @@ module.exports = {
     'expiresSession': 7*86400, //1 minggu
     'filePath': 'uploads/files',
 
-    'server': 'wisuda2020-prasetiyamulya.com',
+    //'server': 'http://wisuda2020-prasetiyamulya.com',
+    'server': 'localhost',
     'server_port': 2099,
     //server
     'database': 'api-prasmul',
-    'user': 'beni',
-    'password': '@Satulimakali86',
+    // 'user': 'beni',
+    // 'password': '@Satulimakali86',
+    'user': 'root',
+    'password': 'nollimakali',
 
     'host' : 'localhost',
     'port': '3306',
