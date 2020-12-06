@@ -348,7 +348,7 @@ exports.blastEmail = (req, res) => {
           }).then(
             success => {
               var emailTemplate = success;
-              helper.utils.sendEmail('mhandharbeni@gmail.com', 'invitation', emailTemplate);
+              helper.utils.sendEmail(data.username, 'Invitation', emailTemplate);
               // res.send(emailTemplate)
               var dataCondition = {}
               dataCondition.id = data.id;
