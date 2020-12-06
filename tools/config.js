@@ -42,7 +42,7 @@ module.exports = {
     'server_port': 2099,
     //server
     'database': 'api-prasmul',
-    'user': 'root',
+    'user': 'beni',
     'password': '@Satulimakali86',
 
     'host' : 'localhost',
