@@ -4,7 +4,7 @@ const typedef = require('./../utils/typedef.js');
 
 /**
  * @route POST /login-admin
- * @group Account
+ * @group AccountAdmin
  * @param {AdminLogin.model} user.body.required - Login Admin
  * @produces application/json
  * @consumes application/json
@@ -97,7 +97,7 @@ exports.loginAdmin = (req, res) => {
 
 /**
  * @route POST /login-member
- * @group Account
+ * @group AccountMember
  * @param {MemberLogin.model} user.body.required - Login Member
  * @produces application/json
  * @consumes application/json
@@ -191,7 +191,7 @@ exports.loginMember = (req, res) => {
 
 /**
  * @route POST /insert
- * @group Account
+ * @group AccountAdmin
  * @param {InsertEmail.model} user.body.required - Insert Email Mahasiswa
  * @produces application/json
  * @consumes application/json
@@ -300,7 +300,7 @@ exports.insertEmail = (req, res) => {
 
 /**
  * @route GET /validate-token
- * @group Account
+ * @group AccountMember
  * @produces application/json
  * @consumes application/json
  * @returns {object} 200 - { "success": true, "message": "Message Success, Message Error", "data": "if any, could be object / json" }
@@ -322,7 +322,7 @@ exports.validateToken = (req, res) => {
 
 /**
  * @route GET /blast-email
- * @group Account
+ * @group AccountAdmin
  * @produces application/json
  * @consumes application/json
  * @returns {object} 200 - { "success": true, "message": "Message Success, Message Error", "data": "if any, could be object / json" }
