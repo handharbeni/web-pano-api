@@ -8,7 +8,7 @@ module.exports = {
       instances: '2',
       exec_mode : 'cluster',
       autorestart: true,
-      watch: true,
+      watch: false,
       kill_timeout : 3000,
       listen_timeout : 3000,
       ignore_watch : ["upload", "upload/files", ".git", "node_modules", "tools/db/sqlite/marketing.db"],
